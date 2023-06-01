@@ -37,5 +37,25 @@ public class Main {
         System.out.println("The product using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleProduct);
         System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleDifference);
         System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleQuotient);
+
+        // Initialize variables
+        int numberOfKids = 2; // Number of kids in your family
+        int favoriteNumber = 11; // Favorite number
+        int shoeSize = 12; // Shoe size
+        int birthMonth = 7; // Birth month
+        double priceOfGallonOfGas = 3.89; // Price of a gallon of gas
+        boolean isRaining = false; // The answer to "Is it raining?"
+
+        // Initialize String variable
+        String yourName = "Gabe Scott"; // Your name
+
+        // Output statements
+        System.out.println("Number of kids in my family: " + numberOfKids);
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("Price of a gallon of gas: $" + priceOfGallonOfGas);
+        System.out.println("My favorite number: " + favoriteNumber);
+        System.out.println("My shoe size: " + shoeSize);
+        System.out.println("My birth month: " + birthMonth);
+        System.out.println("My full name: " + yourName);
         }
     }
