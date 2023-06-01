@@ -1,32 +1,41 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
-    int intOperandA = 1;
-    int intOperandB = 5;
-    int intSum = 12;
-    int intProduct = 30;
-    int intDifference = 11;
-    int intQuotient = 36;
-    int intModulo = 44;
-    double doubleOperandA = 1.5;
-    double doubleOperandB = 2.6;
-    double doubleSum = 12.2;
-    double doubleProduct = 24.5;
-    double doubleDifference = 9.1;
-    double doubleQuotient = 4.5;
-
-
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        // Integer variables
+        int intOperandA = 1;
+        int intOperandB = 5;
+        int intSum, intProduct, intDifference, intQuotient, intModulo;
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        // Double variables
+        double doubleOperandA = 1.5;
+        double doubleOperandB = 2.6;
+        double doubleSum, doubleProduct, doubleDifference, doubleQuotient;
+
+        // Integer operations
+        intSum = intOperandA + intOperandB;
+        intProduct = intOperandA * intOperandB;
+        intDifference = intOperandA - intOperandB;
+        intQuotient = intOperandA / intOperandB;
+        intModulo = intOperandA % intOperandB;
+
+        // Double operations
+        doubleSum = doubleOperandA + doubleOperandB;
+        doubleProduct = doubleOperandA * doubleOperandB;
+        doubleDifference = doubleOperandA - doubleOperandB;
+        doubleQuotient = doubleOperandA / doubleOperandB;
+
+        // Output statements
+        System.out.println("The sum using integers of " + intOperandA + " and " + intOperandB +  " is " + intSum);
+        System.out.println("The product using integers of " + intOperandA + " and " + intOperandB +  " is " + intProduct);
+        System.out.println("The difference using integers of " + intOperandA + " and " + intOperandB +  " is " + intDifference);
+        System.out.println("The quotient using integers of " + intOperandA + " and " + intOperandB +  " is " + intQuotient);
+        System.out.println("The modulo using integers of " + intOperandA + " and " + intOperandB +  " is " + intModulo);
+
+        System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleSum);
+        System.out.println("The product using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleProduct);
+        System.out.println("The difference using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleDifference);
+        System.out.println("The quotient using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleQuotient);
         }
     }
-}
